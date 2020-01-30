@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>四則演算処理</title>
+</head>
+<body>
+	<h1>四則演算処理</h1>
+	<form action ="CalcServlet"  method = "get">
+		<table>
+			<tbody>
+				<tr>
+					<td>数字1つ目<br>
+					      <input type = "text"  name = "su1" size = 10  value = "">
+					 </td>
+					<td>
+						<input type = "radio" name = "button"  value = "tasu">+
+						<br>
+						<input type = "radio" name = "button" value = "hiku">-
+						<br>
+						<input type = "radio" name = "button" value = "kakeru">×
+						<br>
+						<input type = "radio" name = "button" value = "waru">÷
+					</td>
+					<td>数字2つ目<br>
+						 <input type = "text"  name = "su2" size = 10  value = "">
+					</td>
+					<td>
+						<input type = "submit"  value = "=">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+
+</body>
+</html>
